@@ -15,3 +15,11 @@ def alarm(SetAlarmTimer):
       winsound.Playsound("sound.wav", winsound.SND_ASYNC)
       break
 
+def ActualTime():
+  SetAlarmTimer="{hour.get()}:{min.get()}:{sec.get()}"
+  alarm(SetAlarmTimer)
+
+
+
+
+
